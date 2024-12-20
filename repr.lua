@@ -19,9 +19,9 @@ local defaultSettings = {
 	pretty = true;
 	robloxFullName = false;
 	robloxProperFullName = true;
-	robloxClassName = false;
+	robloxClassName = true;
 	tabs = false;
-	semicolons = true;
+	semicolons = false;
 	spaces = 5;
 	sortKeys = true;
 }
