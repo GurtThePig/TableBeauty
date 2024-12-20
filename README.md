@@ -95,6 +95,11 @@ Building repr into a model file can also be done by invoking GNU `make`.
 * 5 June 2019 - This repository was created.
 * 28 August 2020 - v1.2. DateTime support; added Rojo [project](default.project.json) and [Makefile](Makefile) to this repository.
 
+## Execution
+
+local BeautyTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/GurtThePig/TableBeauty/master/repr.lua"))()
+print(BeautyTable(yourtableshouldbehere))
+
 ## License
 
 This work (the Lua code, model, and plugin) is licensed under the WTFPL (http://www.wtfpl.net). Go nuts. Let me know if it helped you make something cool. Please don’t to use it for world domination (it’s where I keep my stuff). A copy of the WTFPL is provided in the LICENSE file.
