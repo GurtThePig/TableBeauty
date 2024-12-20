@@ -97,8 +97,10 @@ Building repr into a model file can also be done by invoking GNU `make`.
 
 ## Execution
 
+```lua
 local BeautyTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/GurtThePig/TableBeauty/master/repr.lua"))()
 print(BeautyTable(yourtableshouldbehere))
+```
 
 ## License
 
